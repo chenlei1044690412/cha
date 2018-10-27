@@ -182,7 +182,7 @@ export const asyncRouterMap = [
         component: () => import('@/views/example/edit'),
         name: 'EditArticle',
         meta: { title: 'editArticle', noCache: true },
-        hidden: true
+        // hidden: true
       },
       {
         path: 'list',
